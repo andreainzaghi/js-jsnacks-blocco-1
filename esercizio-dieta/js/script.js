@@ -9,7 +9,7 @@ var nomeg=0;
 // 2. Confrontarla con le altre email
 
 for (var i = 0; i < invitati.length; i++) {
-  if (cibo.toLowerCase() == invitati[i].toLowerCase()) {
+  if (cibo == invitati[i].toLowerCase()) {
       console.log(i);
       nomeg = 1;
   }
