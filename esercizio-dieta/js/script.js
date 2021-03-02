@@ -10,7 +10,7 @@ var nomeg=0;
 
 for (var i = 0; i < invitati.length; i++) {
   if (cibo.toLowerCase() == invitati[i].toLowerCase()) {
-      console.log("i");
+      console.log(i);
       nomeg = 1;
   }
 }
