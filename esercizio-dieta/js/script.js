@@ -1,7 +1,7 @@
 
 var invitati = ["yogurt","pollo","albume","cioccolato","farro","broccoli","carote","mela","olio","riso","banana"];
 var arr2 = ["52","156","43","515","335","24","41","52","885","356","93"];
-var cibo = parseInt(prompt("Benvenuto! cosa hai mangiato?"));
+var cibo =prompt("Benvenuto! cosa hai mangiato?");
 
 
 var nomeg=0;
@@ -9,7 +9,7 @@ var nomeg=0;
 // 2. Confrontarla con le altre email
 
 for (var i = 0; i < invitati.length; i++) {
-  if (cibo == invitati[i].toLowerCase()) {
+  if (cibo.toLowerCase() == invitati[i].toLowerCase()) {
       console.log(i);
       nomeg = 1;
   }
