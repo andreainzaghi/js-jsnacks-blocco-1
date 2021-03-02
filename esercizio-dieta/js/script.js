@@ -16,10 +16,10 @@ for (var i = 0; i < invitati.length; i++) {
 }
 
 if (nomeg == 1) {
-  var peso = prompt("In che quantita(gr.)?");
+  var peso = parseInt(prompt("In che quantita(gr.)?"));
   var sum = 0;
   // for(var i=0; i< invitati.length; i++) {
-    sum += arr2[i]*peso;
+    sum += arr2[i] * peso;
   // }
 }
  document.getElementById("messaggio").innerHTML =" la somma e\' :" + sum ;
