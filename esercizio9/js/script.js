@@ -16,7 +16,7 @@
  var somma =0;
  var i = 1;
   while (  i <= 5 ) {
-     numero = parseInt(prompt("Inserisci" + i + "°" + "numero"));
+     numero = parseInt(prompt("Inserisci" + i + " °" + "numero"));
      somma+=numero;
      i++;
   }
