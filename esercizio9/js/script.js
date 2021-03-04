@@ -14,11 +14,11 @@
 
  // ...................................................
  var somma =0;
- var i = 0;
-while (  i < 5 ) {
-   numero = parseInt(prompt('Inserisci un numero'));
+ var i = 1;
+  while (  i <= 5 ) {
+     numero = parseInt(prompt("Inserisci" + i + "°" + "numero"));
      somma+=numero;
-  i++;
-}
+     i++;
+  }
 
  document.write(somma);
