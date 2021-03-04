@@ -1,6 +1,6 @@
 
 var invitati = ["yogurt","pollo","albume","cioccolato","farro","broccoli","carote","mela","olio","riso","banana"];
-var arr2 = ["52","156","43","515","335","24","41","52","885","356","93"];
+var arr2 = [52,156,43,515,335,24,41,52,885,356,93];
 var cibo =prompt("Benvenuto! cosa hai mangiato?");
 
 
@@ -18,8 +18,6 @@ for (var i = 0; i < invitati.length; i++) {
 if (nomeg == 1) {
   var peso = parseInt(prompt("In che quantita(gr.)?"));
   var sum = 0;
-  // for(var i=0; i< invitati.length; i++) {
     sum += arr2[i] * peso;
-  // }
+   document.getElementById("messaggio").innerHTML =" la somma e\' :" + sum ;
 }
- document.getElementById("messaggio").innerHTML =" la somma e\' :" + sum ;
