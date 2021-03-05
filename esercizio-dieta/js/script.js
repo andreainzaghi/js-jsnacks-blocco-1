@@ -5,19 +5,20 @@ var cibo =prompt("Benvenuto! cosa hai mangiato?");
 
 
 var nomeg=0;
-
+var salvato;
 // 2. Confrontarla con le altre email
 
 for (var i = 0; i < invitati.length; i++) {
   if (cibo.toLowerCase() == invitati[i].toLowerCase()) {
       console.log(i);
       nomeg = 1;
+      salvato=i;
   }
 }
 
 if (nomeg == 1) {
   var peso = parseInt(prompt("In che quantita(gr.)?"));
   var sum = 0;
-    sum += arr2[i] * peso;
+    sum += (arr2[salvato]) / 100 * peso;
    document.getElementById("messaggio").innerHTML =" la somma e\' :" + sum ;
 }
